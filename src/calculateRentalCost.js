@@ -10,7 +10,7 @@ function calculateRentalCost(days) {
 
   // write code here
   if (days < 1) {
-    return -1;
+    return 0;
   }
 
   if (days >= 7) {
