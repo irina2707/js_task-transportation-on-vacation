@@ -9,6 +9,10 @@ function calculateRentalCost(days) {
   let totalCost = days * COST_PER_DAY;
 
   // write code here
+  if (days < 1) {
+    return -1;
+  }
+
   if (days >= 7) {
     discount = 50;
 
